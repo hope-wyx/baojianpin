@@ -1,0 +1,80 @@
+.Block {
+    margin: .3rem auto 0 auto;
+    width: 6.62rem;
+    padding: .2rem 0 .2rem .2rem;
+    line-height: .4rem;
+    background: rgb(248, 248, 248);
+    box-shadow: -0.1rem 0 .1rem rgb(240, 239, 239),
+        /*左边阴影*/
+        .1rem 0 .1rem rgb(240, 239, 239),
+        /*右边阴影*/
+        0 .1rem .1rem rgb(208, 208, 208);
+}
+
+.Block>p {
+    font-size: .24rem;
+    color: rgb(2, 34, 34);
+    display: flex;
+    display: -webkit-flex;
+}
+
+.Block>p>span {
+    display: block;
+    width: 5rem;
+    font-size: .22rem;
+    color: rgb(102, 102, 102);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+/*  */
+.AllList {
+    margin-top: .4rem;
+}
+
+.AllList>span {
+    padding-left: .5rem;
+    padding-bottom: .1rem;
+    display: block;
+    font-size: .2rem;
+    color: rgb(2, 34, 34);
+    border-bottom: .01rem solid rgb(228, 228, 228);
+}
+
+.AllList>p {
+    font-size: .24rem;
+    color: rgb(2, 34, 34);
+    padding: .15rem 0 .15rem .5rem;
+    border-bottom: .01rem solid rgb(228, 228, 228);
+
+}
+.Btn{
+    width: 4.8rem;
+    height: .62rem;
+    background: rgb(33, 167, 56);
+    border-radius: .04rem;
+    font-size: .36rem;
+    color: white;
+    line-height: .62rem;
+    text-align: center;
+    margin: .3rem auto 0 auto;
+}
+
+.Dispensing{
+    background: rgb(248, 248, 248);
+    padding: .23rem .7rem;
+}
+.Dispensing>p{
+    font-size: .2rem;
+    color: rgb(102, 102, 102);
+}
+.Dispensing>textarea{
+    font-size: .2rem;
+    color: rgb(102, 102, 102);
+    padding: .2rem;
+    width: 6.02rem;
+    height: 1.48rem;
+    margin-top: .1rem;
+    text-align: justify;
+}

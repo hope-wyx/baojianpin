@@ -1,0 +1,68 @@
+.AllMain{
+    background: rgb(248, 248, 248);
+}
+/* 头部 */
+.MainHead {
+    /* background: rgb(248, 248, 248); */
+    display: flex;
+    display: -webkit-flex;
+    height: .88rem;
+    border-bottom: .01rem solid rgb(235, 234, 234);
+}
+
+.MainHeadImg {
+    width: .3rem;
+    height: .4rem;
+    padding-left: .25rem;
+}
+
+.MainHeadImg>img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: .4rem;
+}
+
+.MainHeadP {
+    padding-left: .2rem;
+    line-height: .88rem;
+    font-size: .36rem;
+    color: black;
+}
+
+/* 邀请码 */
+.Invitation{
+    background: white;
+    margin-top: .3rem;
+    /* height: 1.5rem; */
+    padding-left: .3rem;
+}
+.Invitation>h1{
+    padding-top: .3rem;
+    font-size: .26rem;
+    color: rgb(34, 34, 34);
+}
+.Invitation>p{
+    padding-top: .15rem;
+    font-size: .24rem;
+    color: rgb(34, 34, 34);
+    padding-bottom: .2rem;
+
+}
+.Invitation>img{
+    width: 3rem;
+    height: 3rem;
+    margin-top: .15rem;
+}
+.Invitation>span{
+    display: block;
+    width: 4rem;
+    height: .7rem;
+    background: rgb(25, 171, 24);
+    border-radius: .06rem;
+    font-size: .3rem;
+    color: white;
+    line-height: .7rem;
+    text-align: center;
+    margin: .15rem auto;
+    margin-bottom: .2rem;
+}

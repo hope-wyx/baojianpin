@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/public.css">
+    <script>
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 750 * 100 + 'px';
+    </script>
+    <title>投诉反馈</title>
+    <style>
+        .Whole {
+            width: 6.54rem;
+            height: 7.58rem;
+            margin: .3rem auto;
+            background: rgb(248, 248, 248);
+        }
+
+        .LianXi {
+            font-size: .18rem;
+            color: rgb(153, 153, 153);
+            padding-top: .15rem;
+            padding-left: .1rem;
+        }
+
+        .Tel {
+            width: 6rem;
+            height: .5rem;
+            background: white;
+            font-size: .24rem;
+            margin: .1rem auto;
+            padding-left: .1rem;
+            line-height: .5rem;
+            color: rgb(102, 102, 102);
+        }
+
+        .Tel>span {
+            display: block;
+        }
+
+        .Tel input {
+            width: 4.5rem;
+            outline: none;
+            border: none;
+        }
+
+        .Text {
+            width: 6rem;
+            height: 1.5rem;
+            margin: .1rem auto;
+            background: white;
+            position: relative;
+        }
+
+        .Text>textarea {
+            width: 5.6rem;
+            height: 1.5rem;
+            font-size: .18rem;
+            border: none;
+        }
+
+        .Text>p {
+            font-size: .18rem;
+            color: rgb(153, 153, 153);
+        }
+
+        .Text>img {
+            width: .6rem;
+            height: .6rem;
+            padding-left: .9rem;
+            padding-bottom: .2rem;
+        }
+
+        .Text>input {
+            width: .6rem;
+            height: .5.9rem;
+            position: absolute;
+            bottom: .23rem;
+            left: .9rem;
+            border: none; 
+            opacity: 0;
+        }
+        .Btn{
+            width: 4.8rem;
+            height: .62rem;
+            background: rgb(33, 167, 56);
+            border-radius: .04rem;
+            margin: .6rem auto;
+            font-size: .36rem;
+            color: white;
+            text-align: center;
+            line-height: .62rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="AllMain">
+        <!-- 头部 -->
+        <div class="Header">
+                <div class="HeaderImg go_back">
+                    <img src="img/back.png" alt="">
+                </div>
+                <!-- <div class="HeaderCenter">
+                            分销中心
+                        </div> -->
+            </div>
+        <div class="Whole">
+            <div class="LianXi">
+                联系方式
+            </div>
+            <!-- 电话 -->
+            <div class="Tel">
+                <span>联系电话：
+                    <input type="text">
+                </span>
+            </div>
+            <div class="Tel">
+                <span>联系电话：
+                    <input type="text">
+                </span>
+            </div>
+
+            <div class="LianXi">
+                投诉与反馈
+            </div>
+            <!-- 电话 -->
+            <div class="Tel">
+                <span>简单描述*
+                    <input type="text">
+                </span>
+            </div>
+
+            <div class="LianXi">
+                问题详情
+            </div>
+            <div class="Text">
+                <textarea name="" id="" cols="" rows="" placeholder="必填,请输入您要投诉或反馈内容"></textarea>
+            </div>
+            <div class="Text">
+                <p>相关截图</p>
+                <img src="img/shangchuantupian@2x.png" alt="">
+                <input type="file" accept="image/*">
+            </div>
+            <div class="Btn">
+                提交
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>

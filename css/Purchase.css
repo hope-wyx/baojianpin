@@ -1,0 +1,86 @@
+.AllMain{
+    background: rgb(248, 248, 248);
+}
+.Careful{
+    height: 1.28rem;
+    border-bottom: .01rem solid rgb(214, 213, 213);
+    padding: .1rem .3rem;
+    line-height: .43rem;
+    background: white;
+}
+.Careful>h1{
+    font-size: .28rem;
+    color: rgb(34, 34, 34);
+    font-family: 'PingFang-SC-Medium';
+}
+.Careful p{
+    font-size: .24rem;
+    color: rgb(102, 102, 102);
+}
+.Careful p span{
+    display: inline-block;
+    width: 6rem;
+    font-size: .2rem;
+    color: rgb(153, 153, 153);
+    
+}
+/* 进 */
+.Go{
+    height: .78rem;
+    margin-top: .08rem;
+    border-top: .01rem solid rgb(214, 213, 213);    
+    border-bottom: .01rem solid rgb(214, 213, 213);    
+    
+}
+.Go>h1{
+    line-height: .78rem;
+    padding-left: .3rem;
+    font-size: .28rem;
+    color: rgb(34, 34, 34);
+    font-family: 'PingFang-SC-Medium';
+}
+/* 状态列表 */
+.AllList{
+    border-bottom: .01rem solid rgb(214, 213, 213);    
+    background: white;
+}
+
+.AllList>ul{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: .2rem;
+    padding: 0 .1rem .2rem .1rem;
+}
+.AllList>ul>li>a>img{
+    width: .8rem;
+}
+.AllList>ul>li>a>span{
+    display: block;
+    font-size: .24rem;
+    color: black;
+}
+.ListLast{
+    border-bottom: .01rem solid rgb(214, 213, 213);    
+    background: white;
+}
+.ListLast>ul{
+    display: flex;
+    display: -webkit-flex;
+    
+    text-align: center;
+    padding-bottom: .2rem;
+    padding: 0 .1rem .2rem .1rem;
+}
+.ListLast>ul>li{
+    margin-right: .8rem;
+}
+.ListLast>ul>li>a>img{
+    width: .8rem;
+}
+.ListLast>ul>li>a>span{
+    display: block;
+    font-size: .24rem;
+    color: black;
+}

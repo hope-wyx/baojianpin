@@ -1,0 +1,21 @@
+.List{
+    height: 1.1rem;
+    background: rgb(248, 248, 248);
+    border-bottom: .01rem solid rgb(204, 202, 202);
+    padding-left: .5rem;
+    padding-top: .29rem;
+    line-height: .4rem;
+}
+.List>p{
+    font-size:.24rem;
+    width: 6.5rem;
+    color: rgb(34, 34, 34); 
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+.List>span{
+    display: block;
+    font-size: .22rem;
+    color: rgb(102, 102, 102);
+}

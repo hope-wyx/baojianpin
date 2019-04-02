@@ -1,0 +1,27 @@
+.Nav{
+    width: 7.5rem;
+
+}
+.Nav>img{
+    width: 7.5rem;
+    height: 13rem;
+    
+    
+}
+.Sign{
+    width: 5.08rem;
+    height: .88rem;
+    font-size: .48rem;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+    background: white;
+    border-radius: .08rem;
+    text-align: center;
+    line-height: .88rem;
+    position: absolute;
+    bottom: .98rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+   
+}

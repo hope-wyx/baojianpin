@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="Footer/Footer.css">
+    <script>
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 750 * 100 + 'px';
+    </script>
+    <title>首页--工作</title>
+</head>
+
+<body>
+    <div class="AllMain">
+        <!-- 头部背景 -->
+        <div class="HeadImg">
+            <img src="img/banner@2x (2).png" alt="">
+        </div>
+
+        <!-- 全部订单 -->
+        <div class="Order">
+            全部订单
+        </div>
+
+        <!-- 状态列表 -->
+        <div class="State">
+            <ul>
+                <li>
+                    <img src="img/pre_icon_daikuanjindu@2x.png" alt="">
+                    <p>待审核</p>
+                </li>
+                <li>
+                    <img src="img/pre_icon_tiqianhuankuan@2x.png" alt="">
+                    <p>待发货</p>
+                </li>
+                <li>
+                    <img src="img/pre_icon_gongju@2x.png" alt="">
+                    <p>待收货</p>
+                </li>
+                <li>
+                    <img src="img/pre_icon_baoguanxiangyuyue@2x.png" alt="">
+                    <p>待发货</p>
+                </li>
+                <li>
+                    <img src="img/pre_icon_shimingrenzheng@2x.png" alt="">
+                    <p>已完成</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="Authorization">
+            <p>查询授权</p>
+            <div class="AuthImg">
+                <img src="img/chashouquan@2x.png" alt="">
+            </div>
+        </div>
+    </div>
+<!-- 底部导航 -->
+    <footer></footer>
+
+</body>
+
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script src="Footer/Footer.js"></script>
+<script>
+    // 转查询
+    $(".AuthImg").click(function(){
+        window.location.href = "chaxun.html"
+    })
+</script>

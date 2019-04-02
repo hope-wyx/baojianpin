@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/public.css">
+    <script>
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 750 * 100 + 'px';
+    </script>
+    <title>我的下单</title>
+</head>
+<style>
+    /* 购物车 */
+.ShopList{
+
+    margin: 0 auto;
+    background: white;
+    width: 6.78rem;
+    height: 3rem;
+    border-radius: .06rem;
+}
+.ShopList>ul>li{
+    height: 100%;
+    box-shadow: 0 .03rem 0 rgb(235, 234, 234);
+}
+.ShopListIpt{
+    width: 6.78rem;
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    /* line-height: 3rem; */
+    
+}
+/* 多选框 */
+.ShopListIpt>img{
+    width: .3rem;
+    height: .3rem;
+    margin-top: 1.2rem;
+    margin-left: .2rem;
+}
+/* 图片 */
+.ShopListImge{
+    width: 2.2rem;
+    height: 1.9rem;
+}
+.ShopListImge>a>img{
+    width: 100%;
+    height: 100%;
+    margin: .5rem 0 0 .2rem;
+}
+/* 文本 */
+.ShopListTop{
+    /* width: 4rem; */
+    padding-left: .4rem;
+    padding-top: .5rem;
+}
+.ShopListTop>p{
+    width: 4rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+    
+}
+.ShopListTop>p>a{
+    display: block;
+    font-size: .22rem;
+    color: rgb(66, 66, 66);
+    text-align: justify;
+}
+.ShopListCenter{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    margin-top: .4rem;
+}
+.ShopListCenter span{
+    font-size: .18rem;
+    color: rgb(102, 100, 100);
+}
+
+.ShopListBtn{
+    margin-top: .5rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+
+}
+.ShopListMany{
+    font-size: .26rem;
+    color: rgb(222, 77, 62);
+}
+
+.Aubtraction {
+	width: 1.5rem;
+    height: .4rem;
+    display: -webkit-flex;
+    display: flex;
+	box-sizing: border-box;
+    white-space: nowrap;
+    justify-content: space-between;
+	border: .01rem solid #e0e0e0;
+}
+
+.Aubtraction a {
+	display: inline-block;
+	width: .4rem;
+	height: .4rem;
+	line-height: .35rem;
+	text-align: center;
+	/* background: #fff; */
+	font-size: .14rem;
+	color: #666;
+}
+
+.Aubtraction .minus {
+	border-right: .01rem solid #e0e0e0;
+}
+
+.Aubtraction .num {
+	/* width: .3rem; */
+    height:.4rem;
+    line-height: .4rem;
+	text-align: center;
+	border: none;
+	display: inline-block;
+	box-sizing: border-box;
+    vertical-align: top;
+	font-size: .14rem;
+    
+	/* margin: 0; */
+}
+
+.Aubtraction .plus {
+	border-left: .01rem solid #e0e0e0;
+}
+</style>
+
+<body>
+    <div class="AllMain">
+
+         <!-- 头部 -->
+         <div class="Header">
+                <div class="HeaderImg go_back">
+                    <img src="img/back.png" alt="">
+                </div>
+                <!-- <div class="HeaderCenter">
+                        分销中心
+                    </div> -->
+            </div>
+        <!-- 购物列表 -->
+        <div class="ShopList">
+            <ul>
+                <li>
+                    <div class="ShopListIpt">
+                        <!-- <img src="img/icon-loulongtuoyuan@2x.png" alt=""> -->
+                        <div class="ShopListImge">
+                            <a href="#">
+                                <img src="img/img@2x.png" alt="">
+                            </a>
+                        </div>
+                        <div class="ShopListTop">
+                            <p>
+                                <a href="#">
+                                    美的(Midea)饮水机下肢是历史高
+                                </a>
+                            </p>
+                            <div class="ShopListCenter">
+                                <span>类型:冰热</span>
+                                <span>类型:县第十</span>
+                                <span>颜色:其他</span>
+                            </div>
+                            <div class="ShopListBtn">
+                                <div class="ShopListMany">
+                                    <b>¥19999.00</b>
+                                </div>
+                                <div class="Aubtraction">
+                                    <a href="javascript:;" class="minus">-</a>
+                                    <span class="num">1</span>
+                                    <a href="javascript:;" class="plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+        // 数量减
+        $(".minus").click(function () {
+        var t = $(this).parent().find('.num');
+        t.text(parseInt(t.text()) - 1);
+        if (t.text() <= 1) {
+            t.text(0);
+        }
+        
+    });
+    // 数量加
+    $(".plus").click(function () {
+        var t = $(this).parent().find('.num');
+        t.text(parseInt(t.text()) + 1);
+        if (t.text() <= 1) {
+            t.text(1);
+        }
+
+    });
+</script>

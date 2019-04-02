@@ -1,0 +1,57 @@
+.HeadImg{
+    width: 7.5rem;
+
+}
+.HeadImg>img{
+    width: 100%;
+}
+.Order{
+    height: .7rem;
+    border-top: .01rem solid rgb(221, 220, 220);
+    font-size: .3rem;
+    color: rgb(34, 34, 34);
+    line-height: .7rem;
+    padding-left: .4rem;
+    margin-top: .1rem;
+}
+.State{
+    border-top: .01rem solid rgb(221, 220, 220);
+}
+.State>ul{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    padding: .1rem .6rem;
+
+}
+.State>ul>li>img{
+    width: .5rem;
+    height: .6rem;
+}
+.State>ul>li{
+    text-align: center;
+}
+.State>ul>li>p{
+    font-size: .26rem;
+    color: rgb(34, 34, 34);
+    
+}
+
+.Authorization{
+    border-top: .01rem solid rgb(221, 220, 220);
+
+}
+.Authorization>p{
+    font-size: .3rem;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    margin-top: .3rem;
+}
+.AuthImg{
+    width: 2rem;
+    margin: .2rem auto 0 auto;
+}
+.AuthImg>img{
+    width: 100%;
+}
+

@@ -1,0 +1,106 @@
+.Sign{
+    width: 100%;
+    height: 13.32rem;
+    background-image: url("../img/banner@2x1.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+.Pass{
+    position: absolute;
+    top: 3.8rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+
+}
+.Account{
+    width: 5.52rem;
+    height: .84rem;
+    background: white;
+    display: flex;
+    display: -webkit-flex;
+    line-height: .84rem;
+    padding-left: .2rem;
+    margin: 0 auto;
+    
+}
+.Account>span{
+    font-size: .3rem;
+    color: rgb(0, 0, 0);
+}
+.Account>input{
+    width: 4.5rem;
+    margin-left: .2rem;
+    border: none;
+    outline: none;
+    /* opacity: 0; */
+}
+.World{
+    width: 5.52rem;
+    height: .84rem;
+    background: white;
+    display: flex;
+    display: -webkit-flex;
+    line-height: .84rem;
+    padding-left: .2rem;
+    margin: .48rem auto .66rem auto;
+}
+.World>span{
+    font-size: .3rem;
+    color: rgb(0, 0, 0);
+}
+.World>input{
+    width: 4.5rem;
+    margin-left: .2rem;
+    border: none;
+    outline: none;
+    /* opacity: 0; */
+}
+
+/* 伪类 */
+.title{
+    /* border-top: .1rem solid rgb(248, 248, 248); */
+    padding-top: .2rem;
+}
+.title-text span {
+    display: block;      /*设置为块级元素会独占一行形成上下居中的效果*/
+    position: relative;  /*定位横线（当横线的父元素）*/
+    font-size: .24rem;
+    color: rgb(53, 53, 53);      /*居中文字的颜色*/
+    text-align: center; 
+} 
+
+.title-text span:before, .title-text span:after { 
+    content: ''; 
+    position: absolute;   /*定位背景横线的位置*/
+    top: 50%; 
+    background: rgb(68, 68, 68);   /*背景横线颜色*/
+    width: 1.48rem;;            /*单侧横线的长度*/
+    height: .01rem; 
+} 
+
+.title-text span:before { 
+    left: 1rem;              /*调整背景横线的左右距离*/
+} 
+
+.title-text span:after { 
+    right: 1rem; 
+}
+/* 登录按钮 */
+.Btn{
+    width: 6.6rem;
+    height: 1.02rem;
+    background-image: url("../img/登录-按钮@2x.png");
+    background-size: 100% 100%;
+    font-size: .48rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.02rem;
+    text-align: center;
+    font-family: 'PingFang-SC-Medium';
+    letter-spacing: .05rem;
+    position: absolute;
+    bottom: .5rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}

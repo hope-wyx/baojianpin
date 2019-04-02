@@ -1,0 +1,53 @@
+
+/*首页底部导航*/
+.indexFooter{
+	width: 7.5rem;
+	height: 1rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: .01rem solid #dcdcdc;
+	background: #fff;
+	/* padding: 0 .6rem; */
+}
+.indexFooterContent{
+	/* width: 6.9rem; */
+	margin: 0 auto;
+	display: flex;
+	padding: 0 .6rem;
+	justify-content: space-between;
+	position: relative;
+}
+.indexFooterContent div img{
+	display: block;
+	width: .36rem;
+	height: .36rem;
+	vertical-align: top;
+	margin: 0 auto;
+	margin-top: .16rem;
+}
+.indexFooterContent h3{
+	display: block;
+	font-size: .26rem;
+	font-family: 'PingFang-SC-Medium';
+	/* color: #666; */
+	margin-top: .1rem;
+}
+.indexFooterFabu img{
+	position: absolute;
+	left: 50%;
+	top: -0.44rem;
+	margin-left: -0.44rem !important;
+}
+.indexFooterFabu h3{
+	margin-top: .7rem !important;
+}
+
+.footer_style_orange{
+	color: #666;
+	
+}
+
+.footer_style_gray{
+	color: #666;
+}

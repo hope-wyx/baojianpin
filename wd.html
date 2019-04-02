@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/wd.css">
+    <link rel="stylesheet" href="Footer/Footer.css">
+    <script>
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 750 * 100 + 'px';
+    </script>
+    <title>我的</title>
+</head>
+<style>
+    .Black {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9998;
+        display: none;
+    }
+    /* 我的团队 */
+    .AlertdTeam {
+        width: 5rem;
+        background: white;
+        border-radius: .06rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 9999;
+        display: none;
+
+    }
+    .AlertdTeam span {
+        font-size: .3rem;
+        height: .7rem;
+        display: block;
+        border-bottom: .01rem solid rgb(224, 223, 223);
+        text-align: center;
+        line-height: .7rem;
+    }
+    /* 团队end */
+
+    /* 招新管理 */
+    .AlertdRecruit {
+        width: 5rem;
+        background: white;
+        border-radius: .06rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 9999;
+        display: none;
+
+    }
+    .AlertdRecruit span {
+        font-size: .3rem;
+        height: .7rem;
+        display: block;
+        border-bottom: .01rem solid rgb(224, 223, 223);
+        text-align: center;
+        line-height: .7rem;
+    }
+    /* 招新管理end */
+
+    /* 调剂申请 */
+    .AlertdDispensing {
+        width: 5rem;
+        background: white;
+        border-radius: .06rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 9999;
+        display: none;
+
+    }
+    .AlertdDispensing span {
+        font-size: .3rem;
+        height: .7rem;
+        display: block;
+        border-bottom: .01rem solid rgb(224, 223, 223);
+        text-align: center;
+        line-height: .7rem;
+    }
+    /* 调剂申请end */
+
+
+    a {
+        color: rgb(34, 34, 34)
+    }
+</style>
+
+<body>
+    <div class="AllMain">
+        <!-- 头部 -->
+        <div class="Headed">
+            <div class="MainHead">
+                <div class="HeadImg">
+                    <img src="img/banner@12.png" alt="">
+                </div>
+                <div class="HeadCenter">
+                    <p><span>张小小</span><span class="SpanOne"><img src="img/banner13.png" alt="">设置</span></p>
+                    <span>ID:&nbsp;ws00060537</span>
+                    <p>等级:&nbsp;市代</p>
+                </div>
+            </div>
+        </div>
+        <!-- 导航栏 -->
+        <div class="CenterBom">
+            <ul>
+                <li>
+                    <img src="img/pre_icon_daikuanjindu@2x.png" alt="">
+                    <p>待审核</p>
+                </li>
+                <li>
+                    <img src="img/pre_icon_tiqianhuankuan@2x.png" alt="">
+                    <p>待发货</p>
+                </li>
+                <li>
+                    <img src="img/pre_icon_gongju@2x.png" alt="">
+                    <p>待收货</p>
+                </li>
+                <li>
+                    <img src="img/pre_icon_baoguanxiangyuyue@2x.png" alt="">
+                    <p>待发货</p>
+                </li>
+                <li>
+                    <img class="ImgLast" src="img/pre_icon_shimingrenzheng@2x.png" alt="">
+                    <p>已完成</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 活动 -->
+        <div class="Activity">
+            <span>活动</span>
+            <span>为什么选择我们</span>
+        </div>
+        <!-- 列表 -->
+        <div class="AllList">
+            <ul>
+                <li>
+                    <a class="Team">
+                        <img src="img/banner@2x2 (9).png" alt="">
+                        <p>我的团队</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="agents.html">
+                        <img src="img/banner@2x2 (2).png" alt="">
+                        <p>官方公告</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="feedback.html">
+                        <img src="img/banner@2x2 (7).png" alt="">
+                        <p>投诉反馈</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="book.html">
+                        <img src="img/banner@2x2 (12).png" alt="">
+                        <p>授权证书</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="common.html">
+                        <img src="img/banner@2x2 (4).png" alt="">
+                        <p>常见问题</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="Recruit">
+                        <img src="img/banner@2x2 (3).png" alt="">
+                        <p>招新管理</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="agent.html">
+                        <img src="img/banner@2x2 (13).png" alt="">
+                        <p>代理政策</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/banner@2x2 (5).png" alt="">
+                        <p>商团队</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="Dispensing">
+                        <img src="img/banner@2x2 (6).png" alt="">
+                        <p>调剂申请</p>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- 底部导航栏 -->
+    <footer></footer>
+    <!-- 遮罩层 -->
+    <div class="Black"></div>
+    <!-- 我的团队底部弹窗 -->
+    <div class="AlertdTeam">
+        <span>
+            <a href="department.html">
+                我的团队
+            </a>
+        </span>
+        <span>
+            <a href="TeamRecommendation.html">
+                我的推荐
+            </a>
+        </span>
+        <span>
+            <a href="wd.html">
+                取消
+            </a>
+        </span>
+    </div>
+    <!-- 招新管理底部弹窗 -->
+    <div class="AlertdRecruit">
+        <span>
+            <a href="issue.html">
+                邀请码发行
+            </a>
+        </span>
+        <span>
+            <a href="TeamRecommendation1.html">
+                代理审核
+            </a>
+        </span>
+        <span>
+            <a href="wd.html">
+                取消
+            </a>
+        </span>
+    </div>
+    <!-- 调剂申请部弹窗 -->
+    <div class="AlertdDispensing">
+        <span>
+            <a href="Dispensing.html">
+                调剂申请
+            </a>
+        </span>
+        <span>
+            <a href="TeamRecommendation2.html">
+                审核调剂
+            </a>
+        </span>
+        <span>
+            <a href="wd.html">
+                取消
+            </a>
+        </span>
+    </div>
+</body>
+
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script src="Footer/Footer.js"></script>
+<script>
+    // 转设置
+    $(".SpanOne").click(function () {
+        window.location.href = "Setup.html"
+    })
+    // 遮罩层
+    $(".Black").click(function(){
+        $(".Black").hide();
+        $(".AlertdTeam").hide();
+        $(".AlertdRecruit").hide();
+        $(".AlertdDispensing").hide();
+    })
+    // 我的团队
+    $(".Team").click(function(){
+        $(".Black").show();
+        $(".AlertdTeam").show();
+    })
+    // 招新管理
+    $(".Recruit").click(function(){
+        $(".Black").show();
+        $(".AlertdRecruit").show();
+    })
+    // 调剂申请
+    $(".Dispensing").click(function(){
+        $(".Black").show();
+        $(".AlertdDispensing").show();
+    })
+</script>

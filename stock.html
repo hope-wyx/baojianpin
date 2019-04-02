@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/public.css">
+    <script>
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 750 * 100 + 'px';
+    </script>
+    <title>我的库存</title>
+    <style>
+        /* 头部 */
+        .MainHead {
+            display: flex;
+            display: -webkit-flex;
+            height: .88rem;
+        }
+
+        .MainHeadImg {
+            width: .3rem;
+            height: .4rem;
+            padding-left: .25rem;
+        }
+
+        .MainHeadImg>img {
+            width: 100%;
+            height: 100%;
+            padding-bottom: .4rem;
+        }
+
+        .MainHeadP {
+            padding-left: .2rem;
+            line-height: .88rem;
+            font-size: .36rem;
+            color: black;
+        }
+
+        /* table */
+        table {
+            margin-top: .15rem;
+            height: 5.5rem;
+            width: 7.5rem;
+            border-collapse: collapse;
+            border: rgb(191, 190, 190);
+            font-size: .2rem;
+            color: rgb(34, 34, 34);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="AllMain">
+        <!-- 头部 -->
+        <div class="MainHead">
+            <div class="MainHeadImg ">
+                <img class="go_back" src="img/Guanli.png" alt="">
+            </div>
+            <div class="MainHeadP">
+                我的部门
+            </div>
+        </div>
+        <table cellpadding="0" cellpacing="0" border=".005rem">
+            <tr>
+                <td colspan="2">产品</td>
+                <td>虫草参鹿</td>
+            </tr>
+            <tr>
+                <td colspan="2">单位</td>
+                <td>盒</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" style="padding: .3rem .03rem">进</td>
+                <td style="width: 1rem; padding: 0 .1rem;">我的退货</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <td>我的进货</td>
+                <td>0</td>
+            </tr>
+
+
+            <tr>
+                <td rowspan="3">销</td>
+                <td>出货下级</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>终端销售</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>下级退货</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td rowspan="2">存</td>
+                <td>盘点</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>库存</td>
+                <td>0</td>
+            </tr>
+
+
+        </table>
+    </div>
+</body>
+
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
